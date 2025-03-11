@@ -48,7 +48,6 @@ body::after.aktif {
   justify-content: space-around;
   align-items: center;
   height: 6.5rem;
-  border-bottom: 1px solid rgba(62, 61, 61, 0.7);
 }
 #home .container .header .logo {
   height: 100%;
@@ -101,6 +100,7 @@ body::after.aktif {
   background-image: url("/img/galeri/bgbesar2.png");
   background-position: center 0.5rem;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 #home .container .hero .judul {
   height: -moz-fit-content;
