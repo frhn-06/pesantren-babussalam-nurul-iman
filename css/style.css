@@ -95,6 +95,10 @@ body::after.aktif {
 #home .container .header .icon-menu {
   display: none;
 }
+#home .container .hero {
+  height: 100vh;
+  background-color: black;
+}
 #home .container .hero .judul {
   height: -moz-fit-content;
   height: fit-content;
