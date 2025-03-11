@@ -120,12 +120,12 @@ body::after.aktif {
         }
         
         .face {
-            background-image: url('/img/galeri/IMG20240712144500.jpg');
+            background-image: url('/img/galeri/bgbesar.jpg');
             // background-color: #333;
             height: 100vh;
-            // background-image: url('/img/galeri/bgbesar.jpg');
-            // background-position:  center .5rem ;
-            // background-size: cover;
+            background-image: url('/img/galeri/bgbesar.jpg');
+            background-position:  center .5rem ;
+            background-size: cover;
             // background-repeat: no-repeat;
         
 
@@ -462,7 +462,7 @@ body::after.aktif {
                 gap: 2rem;
                 .foto {
                     flex: 1;
-                    // height: 20rem;
+                    height: 20rem;
                     display: flex;
                     align-items: center;
                     border-radius: 50%;

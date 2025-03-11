@@ -96,8 +96,11 @@ body::after.aktif {
   display: none;
 }
 #home .container .face {
-  background-image: url("/img/galeri/IMG20240712144500.jpg");
+  background-image: url("/img/galeri/bgbesar.jpg");
   height: 100vh;
+  background-image: url("/img/galeri/bgbesar.jpg");
+  background-position: center 0.5rem;
+  background-size: cover;
 }
 #home .container .face .judul {
   height: -moz-fit-content;
@@ -334,6 +337,7 @@ body::after.aktif {
 }
 #tentang .container .row .gambar .foto {
   flex: 1;
+  height: 20rem;
   display: flex;
   align-items: center;
   border-radius: 50%;
