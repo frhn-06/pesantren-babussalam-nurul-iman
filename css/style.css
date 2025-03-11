@@ -1438,6 +1438,9 @@ body::after.aktif {
   html {
     font-size: 55%;
   }
+  #home .container .face {
+    height: 98vh;
+  }
   #sambutan .title .foto {
     width: 40%;
   }
