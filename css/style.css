@@ -361,7 +361,7 @@ body::after.aktif {
   margin-top: -1rem;
 }
 #tentang .container .row .gambar .logo ul li {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 300;
   text-align: justify;
 }
@@ -375,7 +375,7 @@ body::after.aktif {
   text-align: start;
 }
 #tentang .container .row .content p {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   text-align: justify;
   margin-bottom: 1rem;
 }
@@ -383,7 +383,7 @@ body::after.aktif {
   margin-top: -1rem;
 }
 #tentang .container .row .content ul li {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   text-align: justify;
 }
 #tentang .container::after {
@@ -482,11 +482,13 @@ body::after.aktif {
 #galeri .container .row .card .caption h3 {
   font-size: 1.4rem;
   color: #333;
+  margin-bottom: 0.5rem;
 }
 #galeri .container .row .card .caption p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 300;
   color: #333;
+  margin-bottom: 0.5rem;
 }
 #galeri .container .row .card .caption .btn {
   border: none;
@@ -494,9 +496,10 @@ body::after.aktif {
   width: 80%;
   color: aliceblue;
   background-color: rgb(50, 191, 50);
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   transition: 0.4s;
+  margin-bottom: 1rem;
 }
 #galeri .container .row .card .caption .btn:hover {
   background-color: rgb(36, 162, 36);
@@ -735,7 +738,7 @@ body::after.aktif {
   width: 100%;
 }
 #informasi .container .video figure figcaption {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: #333;
   font-weight: 300;
 }
@@ -809,7 +812,7 @@ body::after.aktif {
 }
 #kontak .container .row form .input-grup input {
   height: 2.6rem;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   width: 100%;
   padding: 0.5rem;
   border: none;
@@ -828,7 +831,7 @@ body::after.aktif {
 }
 #kontak .container .row form .input-grup textarea {
   width: 100%;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   padding: 0.5rem;
   border: none;
   height: 8rem;
@@ -1180,7 +1183,6 @@ body::after.aktif {
     text-align: center;
   }
   #home .container .hero .judul h1 {
-    font-size: 3rem;
     color: aliceblue;
   }
   @keyframes h1 {
@@ -1302,6 +1304,12 @@ body::after.aktif {
     border-bottom: 1px solid #333;
     text-align: center;
   }
+  #tentang .container .row .content p {
+    font-size: 1.8rem;
+  }
+  #tentang .container .row .content ul li {
+    font-size: 1.8rem;
+  }
   #galeri .container .row {
     flex-direction: column;
     align-items: center;
@@ -1312,6 +1320,15 @@ body::after.aktif {
   }
   #galeri .container .row .card .foto .foto-overlay {
     bottom: 1.5%;
+  }
+  #galeri .container .row .card .caption h3 {
+    font-size: 1.7rem;
+  }
+  #galeri .container .row .card .caption p {
+    font-size: 1.8rem;
+  }
+  #galeri .container .row .card .caption .btn {
+    font-size: 1.8rem;
   }
   #informasi .container .row .cont {
     width: 55%;
@@ -1327,6 +1344,15 @@ body::after.aktif {
   }
   #kontak .container .row .map {
     flex: 1 1 34rem;
+  }
+  #kontak .container .row form .input-grup input {
+    font-size: 1.8rem;
+  }
+  #kontak .container .row form .input-grup #pesan {
+    font-size: 1.8rem;
+  }
+  #kontak .container .row form .btn-kirim {
+    font-size: 1.8rem;
   }
   #footer .container .row {
     flex-wrap: wrap;
@@ -1357,9 +1383,18 @@ body::after.aktif {
     flex-direction: column;
     gap: 0.5rem;
   }
+  #footer .container .row .nav-down ul li {
+    font-size: 1.8rem;
+  }
   #footer .container .row .sosmed {
     order: 3;
     width: 50%;
+  }
+  #footer .container .row .sosmed ul li {
+    font-size: 2.4rem;
+  }
+  #footer .container .row .sosmed p {
+    font-size: 1.7rem;
   }
 }
 @media (max-width: 910px) {
@@ -1400,21 +1435,21 @@ body::after.aktif {
     width: 40%;
   }
   #sambutan .container .row .caption p {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
   #tentang .container .row .gambar .foto {
     width: 70%;
   }
   #tentang .container .row .gambar .logo ul li {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     text-align: justify;
   }
   #tentang .container .row .content p {
-    font-size: 1.55rem;
+    font-size: 1.6rem;
     text-align: justify;
   }
   #tentang .container .row .content ul li {
-    font-size: 1.55rem;
+    font-size: 1.6rem;
     text-align: justify;
   }
   #sambutan .container .row {
@@ -1438,9 +1473,18 @@ body::after.aktif {
   #galeri .container .row .card .foto .foto-overlay {
     bottom: 2%;
   }
+  #galeri .container .row .card .caption p {
+    font-size: 1.55rem;
+  }
+  #galeri .container .row .card .caption .btn {
+    font-size: 1.55rem;
+  }
   #galeri .container .lihat-foto img {
     max-width: 100%;
     max-height: 90%;
+  }
+  #galeri .container .lihat-foto .btnX {
+    font-size: 2.5rem;
   }
   #informasi .container .row .cont {
     width: 85%;
@@ -1449,7 +1493,7 @@ body::after.aktif {
     width: 90%;
   }
   #informasi .container .video figure {
-    width: 95%;
+    width: 100%;
   }
   #informasi .container .video figure figcaption {
     font-size: 1rem;
@@ -1463,9 +1507,16 @@ body::after.aktif {
   #kontak .container .row form .input-grup {
     padding: 0.5rem;
   }
+  #kontak .container .row form .input-grup input {
+    font-size: 1.6rem;
+  }
   #kontak .container .row form .input-grup .i {
-    width: 1.3rem;
-    height: 1.3rem;
+    width: 2rem;
+    height: 2rem;
+  }
+  #kontak .container .row form .btn-kirim {
+    margin-top: 1rem;
+    font-size: 1.6rem;
   }
   #footer .container .row {
     flex-direction: row;
@@ -1485,7 +1536,7 @@ body::after.aktif {
     height: 6rem;
   }
   #footer .container .row .nav-down {
-    width: 40%;
+    width: 25%;
     margin-top: 0;
   }
   #footer .container .row .nav-down ul {
@@ -1494,14 +1545,18 @@ body::after.aktif {
     gap: 0.5rem;
   }
   #footer .container .row .nav-down ul li {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
   #footer .container .row .sosmed {
-    width: 50%;
+    width: 65%;
     justify-items: start;
+    flex-wrap: nowrap;
+  }
+  #footer .container .row .sosmed ul li {
+    font-size: 2.2rem;
   }
   #footer .container .row .sosmed p {
-    font-size: 1.17rem;
+    font-size: 1.55rem;
   }
 }
 @media (max-width: 551px) {

@@ -493,7 +493,7 @@ body::after.aktif {
                     ul {
                         margin-top: -1rem;                        
                         li {
-                            font-size: 1.2rem;
+                            font-size: 1.4rem;
                             // line-height: 1.6rem;
                             font-weight: 300;
                             text-align: justify;
@@ -516,7 +516,7 @@ body::after.aktif {
                 }
 
                 p {
-                    font-size: 1.3rem;
+                    font-size: 1.5rem;
                     // line-height: 1.6rem;
                     text-align: justify;
                     margin-bottom: 1rem;
@@ -524,7 +524,7 @@ body::after.aktif {
                 ul {
                     margin-top: -1rem;
                     li {
-                        font-size: 1.3rem;
+                        font-size: 1.5rem;
                         // line-height: 1.6rem;
                         text-align: justify;
                     }
@@ -667,7 +667,7 @@ body::after.aktif {
             //             font-size: 1.4rem;
             //         }
             //         p{
-            //             font-size: 1.1rem;
+            //             font-size: 1.2rem;
             //             line-height: 1.3rem;
             //             font-weight: 300;
             //             text-align: justify;
@@ -681,7 +681,7 @@ body::after.aktif {
             //             width: 80%;
             //             margin: .8rem auto 0;
             //             color: aliceblue;
-            //             font-size: 1.1rem;
+            //             font-size: 1.2rem;
             //             font-weight: 400;
             //             transition: .3s;
             //         }
@@ -825,15 +825,19 @@ body::after.aktif {
                     background-color: $bg;
                     // background-color: rgb(183, 183, 11);
                     padding: 1rem;
+                    
                     h3 {
                         font-size: 1.4rem;
                         color: #333;
+                        margin-bottom: .5rem;
                         // color: #efefef;
                     }
                     p {
-                        font-size: 1.1rem;
+                        font-size: 1.2rem;
                         font-weight: 300;
                         color: #333;
+                        margin-bottom: .5rem;
+
                         // color: #efefef;
                     }
                     .btn {
@@ -842,9 +846,11 @@ body::after.aktif {
                         width: 80%;
                         color: aliceblue;
                         background-color: rgb(50, 191, 50);
-                        font-size: 1.1rem;
+                        font-size: 1.2rem;
                         font-weight: 400;
                         transition: .4s;
+                        margin-bottom: 1rem;
+
                     }
                     .btn:hover {
                         background-color: rgb(36, 162, 36);
@@ -1124,7 +1130,7 @@ body::after.aktif {
                     width: 100%;
                 }
                 figcaption {
-                    font-size: 1.1rem;
+                    font-size: 1.2rem;
                     color: #333;
                     font-weight: 300;
                 }
@@ -1215,7 +1221,7 @@ body::after.aktif {
                     }
                     input {
                         height: 2.6rem;
-                        font-size: 1.3rem;
+                        font-size: 1.5rem;
                         width: 100%;
                         padding: .5rem;
                         border: none;
@@ -1238,7 +1244,7 @@ body::after.aktif {
                     
                     textarea {
                         width: 100%;
-                        font-size: 1.3rem;
+                        font-size: 1.5rem;
                         padding: .5rem;
                         border: none;
                         height: 8rem;
@@ -1814,7 +1820,7 @@ body::after.aktif {
                     text-align: center;
     
                     h1 {
-                        font-size: 3rem;
+                        // font-size: 3rem;
                         color: aliceblue;
                     }
                     @keyframes h1 {
@@ -2034,6 +2040,11 @@ body::after.aktif {
                         // padding: 3rem;
                         width: 50%;
                     }
+                    .logo {
+                        p {
+                            
+                        }
+                    }
                 }
 
                 .content {
@@ -2042,6 +2053,15 @@ body::after.aktif {
                     border-bottom: 1px solid #333;
                     // padding-top: 2rem;
                     text-align: center;
+                    p {
+                        font-size: 1.8rem;
+                        
+                    }
+                    ul {
+                        li {
+                            font-size: 1.8rem;
+                        }
+                    }
                 }
             }
         }
@@ -2061,6 +2081,17 @@ body::after.aktif {
                     .foto {
                         .foto-overlay {
                             bottom: 1.5%;
+                        }
+                    }
+                    .caption {
+                        h3 {
+                            font-size: 1.7rem;
+                        }
+                        p {
+                            font-size: 1.8rem;
+                        }
+                        .btn {
+                            font-size: 1.8rem;
                         }
                     }
                 }
@@ -2099,6 +2130,19 @@ body::after.aktif {
                 .map {
                     flex: 1 1 34rem;
                 }
+                form {
+                    .input-grup {
+                        input {
+                            font-size: 1.8rem;
+                        }
+                        #pesan {
+                            font-size: 1.8rem;
+                        }
+                    }
+                    .btn-kirim {
+                        font-size: 1.8rem;
+                    }
+                }
             }
         }
     }
@@ -2134,11 +2178,22 @@ body::after.aktif {
                         flex-direction: column;
                         // align-items: center;
                         gap: .5rem;
+                        li {
+                            font-size: 1.8rem;
+                        }
                     }
                 }
                 .sosmed {
                     order: 3;
                     width: 50%;
+                    ul {
+                        li {
+                            font-size: 2.4rem;
+                        }
+                    }
+                    p {
+                        font-size: 1.7rem;
+                    }
                 }
             }
         }
@@ -2259,7 +2314,7 @@ body::after.aktif {
             .row {
                 .caption {
                     p {
-                        font-size: 1.3rem;
+                        font-size: 1.4rem;
                     }
                 }
             }
@@ -2277,7 +2332,7 @@ body::after.aktif {
                     .logo {
                         ul {
                             li {
-                                font-size: 1.7rem;
+                                font-size: 1.6rem;
                                 // line-height: 1.8rem;
                                 text-align: justify;
                             }
@@ -2287,12 +2342,12 @@ body::after.aktif {
 
                 .content {
                     p {
-                        font-size: 1.55rem;
+                        font-size: 1.6rem;
                         text-align: justify;
                     }
                     ul {
                         li {
-                            font-size: 1.55rem;
+                            font-size: 1.6rem;
                             text-align: justify;
                         }
                     }
@@ -2334,13 +2389,25 @@ body::after.aktif {
                             bottom: 2%;
                         }
                     }
+                    .caption {
+
+                        p {
+
+                            font-size: 1.55rem;
+                        }
+                        .btn {
+                            font-size: 1.55rem;
+                        }
+                    }
                 }
             }
             .lihat-foto {
                 img {
                     max-width: 100%;
                     max-height: 90%;
-                    
+                }
+                .btnX {
+                    font-size: 2.5rem;
                 }
             }
         }
@@ -2362,7 +2429,7 @@ body::after.aktif {
             }
             .video {
                 figure {
-                    width: 95%;
+                    width:100%;
                     figcaption {
                         font-size: 1rem;
                     }
@@ -2383,10 +2450,18 @@ body::after.aktif {
                     padding: 2rem .5rem;
                     .input-grup {
                         padding: .5rem;
-                        .i {
-                            width: 1.3rem;
-                            height: 1.3rem;
+                        input {
+                            font-size: 1.6rem;
                         }
+                        .i {
+                            width: 2rem;
+                            height: 2rem;
+                        }
+
+                    }
+                    .btn-kirim {
+                        margin-top: 1rem;
+                        font-size: 1.6rem;
                     }
                 }
             }
@@ -2415,24 +2490,30 @@ body::after.aktif {
                 }
 
                 .nav-down {
-                    width: 40%;
+                    width: 25%;
                     margin-top: 0;
                     ul {
                         flex-direction: column;
                         justify-content: center;
                         gap: .5rem;
                         li {
-                            font-size: 1.4rem;
+                            font-size: 1.6rem;
                         }
                     }
                 }
 
                 .sosmed {
-                    width: 50%;
+                    width: 65%;
                     justify-items: start;
+                    flex-wrap: nowrap;
+                    ul {
+                        li {
+                            font-size: 2.2rem;
+                        }
+                    }
                     p {
-                        font-size: 1.17rem;
-                        
+                        // font-size: 1.17rem;
+                        font-size: 1.55rem;
                     }
                 }
             }
