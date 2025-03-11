@@ -98,7 +98,7 @@ body::after.aktif {
 }
 #home .container .hero {
   height: 100vh;
-  background-image: url("/img/galeri/bgbesar.jpg");
+  background-image: url("/img/galeri/bgbesar2.png");
   background-position: center 0.5rem;
   background-size: cover;
 }
