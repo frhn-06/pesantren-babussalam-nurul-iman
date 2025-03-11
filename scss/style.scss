@@ -120,7 +120,8 @@ body::after.aktif {
         }
         
         .face {
-            background-color: #333;
+            background-image: url('/img/galeri/IMG20240712144500.jpg');
+            // background-color: #333;
             height: 100vh;
             // background-image: url('/img/galeri/bgbesar.jpg');
             // background-position:  center .5rem ;
@@ -184,7 +185,7 @@ body::after.aktif {
             
         }
 
-        // .cover::after {
+        // .face::after {
         //     content: '';
         //     display: block;
         //     width: 100%;
@@ -193,7 +194,7 @@ body::after.aktif {
         //     position: absolute;
         //     bottom: 0;
         // }
-        .cover::after {
+        .face::after {
             content: '';
             display: block;
             width: 100%;

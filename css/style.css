@@ -96,7 +96,7 @@ body::after.aktif {
   display: none;
 }
 #home .container .face {
-  background-color: #333;
+  background-image: url("/img/galeri/IMG20240712144500.jpg");
   height: 100vh;
 }
 #home .container .face .judul {
@@ -141,7 +141,7 @@ body::after.aktif {
     transform: translateX(0);
   }
 }
-#home .container .cover::after {
+#home .container .face::after {
   content: "";
   display: block;
   width: 100%;
