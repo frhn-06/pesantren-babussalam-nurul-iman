@@ -31,6 +31,7 @@ const tutupNav = (e) => {
 }
 
 
+
 const munculSambutan = (btn) => {
     const cap = document.querySelector('#sambutan .container .row .caption');
 
@@ -553,7 +554,7 @@ textArea.addEventListener('blur', () => {
 // console.log(anjing);
 
 
-// const namaPondok = document.querySelector('#home .container .hero .judul h1');
+// const namaPondok = document.querySelector('#home .container .bg .judul h1');
 // const namaPondokTeks = namaPondok.innerText;
 // console.log(namaPondokTeks);
 // const huruf = namaPondokTeks.split('');

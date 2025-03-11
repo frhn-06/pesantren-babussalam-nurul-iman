@@ -119,10 +119,9 @@ body::after.aktif {
             }
         }
         
-        .bg {
+        .cover {
             height: 100vh;
-            // background-color: black;
-            background-image: url('/img/galeri/bgbesar2.png');
+            background-image: url('/img/galeri/bgbesar.jpg');
             background-position:  center .5rem ;
             background-size: cover;
             // background-repeat: no-repeat;
@@ -184,7 +183,7 @@ body::after.aktif {
             
         }
 
-        // .bg::after {
+        // .cover::after {
         //     content: '';
         //     display: block;
         //     width: 100%;
@@ -193,7 +192,7 @@ body::after.aktif {
         //     position: absolute;
         //     bottom: 0;
         // }
-        .bg::after {
+        .cover::after {
             content: '';
             display: block;
             width: 100%;
@@ -1697,7 +1696,7 @@ body::after.aktif {
     //                 }
     //             }
     //         }
-    //         .bg {
+    //         .cover {
     //             .judul {
     //             }
                 
@@ -1806,7 +1805,7 @@ body::after.aktif {
                 }
             }
 
-            .bg {
+            .cover {
                 // height: fit-content;
                 height: 98vh;
                 .judul {
@@ -2297,7 +2296,7 @@ body::after.aktif {
             .header {
                 // height: 6.5rem;
             }
-            .bg {
+            .cover {
                 // height: 100vh;
             }
         }
