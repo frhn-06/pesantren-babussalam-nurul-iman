@@ -120,15 +120,26 @@ body::after.aktif {
         }
         
         .face {
-            background-image: url('/img/galeri/bgbesar.jpg');
+            // background-image: url('/img/galeri/bgbesar.jpg');
             // background-color: #333;
             height: 100vh;
+            // height: 100%;
             background-image: url('/img/galeri/bgbesar.jpg');
             background-position:  center .5rem ;
             background-size: cover;
             // background-repeat: no-repeat;
         
-
+            // .cover {
+            //     position: absolute;
+            //     top: 0;
+            //     left: 0;
+            //     right: 0;
+            //     height: inherit;
+            //     img {
+            //         height: 100%;
+            //         width: 100%;
+            //     }
+            // }
             .judul {
                 height: fit-content;
                 position: absolute;
@@ -1810,6 +1821,12 @@ body::after.aktif {
             .face {
                 // height: fit-content;
                 height: 98vh;
+                // .cover {
+                //     img {
+                //         width: 150%;
+                //         transform: translateX(-20%);
+                //     }
+                // }
                 .judul {
                     position: absolute;
                     background: linear-gradient(to bottom, rgba(22, 166, 22, 0.751)0%, rgba(2, 213, 2, 0) 100%);

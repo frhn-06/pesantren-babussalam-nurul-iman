@@ -96,7 +96,6 @@ body::after.aktif {
   display: none;
 }
 #home .container .face {
-  background-image: url("/img/galeri/bgbesar.jpg");
   height: 100vh;
   background-image: url("/img/galeri/bgbesar.jpg");
   background-position: center 0.5rem;
