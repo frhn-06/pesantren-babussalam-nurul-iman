@@ -95,11 +95,13 @@ body::after.aktif {
 #home .container .header .icon-menu {
   display: none;
 }
-#home .container .hero {
+#home .container .bg {
   height: 100vh;
-  background-color: black;
+  background-image: url("/img/galeri/bgbesar2.png");
+  background-position: center 0.5rem;
+  background-size: cover;
 }
-#home .container .hero .judul {
+#home .container .bg .judul {
   height: -moz-fit-content;
   height: fit-content;
   position: absolute;
@@ -110,7 +112,7 @@ body::after.aktif {
   padding: 2rem 2.2rem;
   border-radius: 1.6rem 0 0 1.6rem;
 }
-#home .container .hero .judul h1 {
+#home .container .bg .judul h1 {
   font-size: 4rem;
   line-height: 3.5rem;
   animation: h1 5s forwards;
@@ -127,7 +129,7 @@ body::after.aktif {
     text-shadow: -0.1rem 0.3rem 0.3rem #333;
   }
 }
-#home .container .hero .judul p {
+#home .container .bg .judul p {
   font-weight: 200;
   animation: par 5s forwards;
 }
@@ -141,7 +143,7 @@ body::after.aktif {
     transform: translateX(0);
   }
 }
-#home .container .hero::after {
+#home .container .bg::after {
   content: "";
   display: block;
   width: 100%;
@@ -1173,10 +1175,10 @@ body::after.aktif {
   #home .container .header .icon-menu .menu .mm:nth-child(3) {
     transform: rotate(45deg) translateX(-1.45rem);
   }
-  #home .container .hero {
+  #home .container .bg {
     height: 98vh;
   }
-  #home .container .hero .judul {
+  #home .container .bg .judul {
     position: absolute;
     background: linear-gradient(to bottom, rgba(22, 166, 22, 0.751) 0%, rgba(2, 213, 2, 0) 100%);
     top: 25%;
@@ -1186,7 +1188,7 @@ body::after.aktif {
     border-radius: 1.8rem 1.8rem 0 0;
     text-align: center;
   }
-  #home .container .hero .judul h1 {
+  #home .container .bg .judul h1 {
     color: aliceblue;
   }
   @keyframes h1 {
@@ -1201,7 +1203,7 @@ body::after.aktif {
       text-shadow: -0.1rem 0.3rem 0.3rem #333;
     }
   }
-  #home .container .hero .judul p {
+  #home .container .bg .judul p {
     font-weight: 300;
     color: rgba(240, 248, 255, 0.692);
   }
