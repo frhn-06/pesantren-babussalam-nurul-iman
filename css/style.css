@@ -95,11 +95,11 @@ body::after.aktif {
 #home .container .header .icon-menu {
   display: none;
 }
-#home .container .cover {
+#home .container .face {
   background-color: #333;
   height: 100vh;
 }
-#home .container .cover .judul {
+#home .container .face .judul {
   height: -moz-fit-content;
   height: fit-content;
   position: absolute;
@@ -110,7 +110,7 @@ body::after.aktif {
   padding: 2rem 2.2rem;
   border-radius: 1.6rem 0 0 1.6rem;
 }
-#home .container .cover .judul h1 {
+#home .container .face .judul h1 {
   font-size: 4rem;
   line-height: 3.5rem;
   animation: h1 5s forwards;
@@ -127,7 +127,7 @@ body::after.aktif {
     text-shadow: -0.1rem 0.3rem 0.3rem #333;
   }
 }
-#home .container .cover .judul p {
+#home .container .face .judul p {
   font-weight: 200;
   animation: par 5s forwards;
 }
@@ -1173,10 +1173,10 @@ body::after.aktif {
   #home .container .header .icon-menu .menu .mm:nth-child(3) {
     transform: rotate(45deg) translateX(-1.45rem);
   }
-  #home .container .cover {
+  #home .container .face {
     height: 98vh;
   }
-  #home .container .cover .judul {
+  #home .container .face .judul {
     position: absolute;
     background: linear-gradient(to bottom, rgba(22, 166, 22, 0.751) 0%, rgba(2, 213, 2, 0) 100%);
     top: 25%;
@@ -1186,7 +1186,7 @@ body::after.aktif {
     border-radius: 1.8rem 1.8rem 0 0;
     text-align: center;
   }
-  #home .container .cover .judul h1 {
+  #home .container .face .judul h1 {
     color: aliceblue;
   }
   @keyframes h1 {
@@ -1201,7 +1201,7 @@ body::after.aktif {
       text-shadow: -0.1rem 0.3rem 0.3rem #333;
     }
   }
-  #home .container .cover .judul p {
+  #home .container .face .judul p {
     font-weight: 300;
     color: rgba(240, 248, 255, 0.692);
   }
