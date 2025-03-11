@@ -120,10 +120,11 @@ body::after.aktif {
         }
         
         .cover {
+            background-color: #333;
             height: 100vh;
-            background-image: url('/img/galeri/bgbesar.jpg');
-            background-position:  center .5rem ;
-            background-size: cover;
+            // background-image: url('/img/galeri/bgbesar.jpg');
+            // background-position:  center .5rem ;
+            // background-size: cover;
             // background-repeat: no-repeat;
         
 

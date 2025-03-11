@@ -96,10 +96,8 @@ body::after.aktif {
   display: none;
 }
 #home .container .cover {
+  background-color: #333;
   height: 100vh;
-  background-image: url("/img/galeri/bgbesar.jpg");
-  background-position: center 0.5rem;
-  background-size: cover;
 }
 #home .container .cover .judul {
   height: -moz-fit-content;
