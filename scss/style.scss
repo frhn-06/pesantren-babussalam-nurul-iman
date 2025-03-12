@@ -127,6 +127,7 @@ body::after.aktif {
             background-image: url('../img/galeri/bgbesar.jpg');
             background-position:  center .5rem ;
             background-size: cover;
+        
             // background-repeat: no-repeat;
         
             // .cover {
@@ -1820,7 +1821,8 @@ body::after.aktif {
 
             .face {
                 // height: fit-content;
-                height: 98vh;
+                height: 95vh;
+
                 // .cover {
                 //     img {
                 //         width: 150%;
@@ -1872,6 +1874,10 @@ body::after.aktif {
                         }
                     }
                 }
+            }
+            .face::after {
+                height: 20rem;
+                background: linear-gradient(to top, $bg2 30%, rgba(0, 0, 0, 0)100%);
             }
         }
         .gelap {
@@ -2153,6 +2159,7 @@ body::after.aktif {
                     .input-grup {
                         input {
                             font-size: 1.8rem;
+                            padding: 1rem .5rem;
                         }
                         #pesan {
                             font-size: 1.8rem;
@@ -2316,7 +2323,7 @@ body::after.aktif {
                 // height: 6.5rem;
             }
             .face {
-                height: 98vh;
+                height: 95vh;
             }
         }
     }
@@ -2351,7 +2358,7 @@ body::after.aktif {
                     .logo {
                         ul {
                             li {
-                                font-size: 1.6rem;
+                                font-size: 1.7rem;
                                 // line-height: 1.8rem;
                                 text-align: justify;
                             }
@@ -2361,12 +2368,12 @@ body::after.aktif {
 
                 .content {
                     p {
-                        font-size: 1.6rem;
+                        font-size: 1.7rem;
                         text-align: justify;
                     }
                     ul {
                         li {
-                            font-size: 1.6rem;
+                            font-size: 1.7rem;
                             text-align: justify;
                         }
                     }
@@ -2412,10 +2419,10 @@ body::after.aktif {
 
                         p {
 
-                            font-size: 1.55rem;
+                            font-size: 1.6rem;
                         }
                         .btn {
-                            font-size: 1.55rem;
+                            font-size: 1.6rem;
                         }
                     }
                 }
@@ -2470,17 +2477,20 @@ body::after.aktif {
                     .input-grup {
                         padding: .5rem;
                         input {
-                            font-size: 1.6rem;
+                            font-size: 1.55rem;
+                        }
+                        #pesan {
+                            font-size: 1.55rem;
                         }
                         .i {
-                            width: 2rem;
-                            height: 2rem;
+                            width: 2.1rem;
+                            height: 2.1rem;
                         }
 
                     }
                     .btn-kirim {
                         margin-top: 1rem;
-                        font-size: 1.6rem;
+                        font-size: 1.9rem;
                     }
                 }
             }

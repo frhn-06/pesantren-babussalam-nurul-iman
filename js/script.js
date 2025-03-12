@@ -176,8 +176,14 @@ const munculalert = (e) => {
 
 const tutupAlert = (e, o) => {
     const asert = o.querySelector('.alert');
+    const inputNama = document.querySelector('input#nama');
+    const inputEmail = document.querySelector('input#email');
+    const textArea = document.querySelector('.input-grup #pesan');
     if(!asert.contains(e.target)) {
         o.classList.remove('show-alert-muncul');
+        inputNama.value = '';
+        inputEmail.value = '';
+        textArea.value = '';
     }
 }
 

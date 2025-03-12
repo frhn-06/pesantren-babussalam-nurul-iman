@@ -1177,7 +1177,7 @@ body::after.aktif {
     transform: rotate(45deg) translateX(-1.45rem);
   }
   #home .container .face {
-    height: 98vh;
+    height: 95vh;
   }
   #home .container .face .judul {
     position: absolute;
@@ -1217,6 +1217,10 @@ body::after.aktif {
       color: rgba(240, 248, 255, 0.692);
       transform: translateY(0);
     }
+  }
+  #home .container .face::after {
+    height: 20rem;
+    background: linear-gradient(to top, rgb(208, 255, 208) 30%, rgba(0, 0, 0, 0) 100%);
   }
   #home .gelap {
     position: fixed;
@@ -1354,6 +1358,7 @@ body::after.aktif {
   }
   #kontak .container .row form .input-grup input {
     font-size: 1.8rem;
+    padding: 1rem 0.5rem;
   }
   #kontak .container .row form .input-grup #pesan {
     font-size: 1.8rem;
@@ -1439,7 +1444,7 @@ body::after.aktif {
     font-size: 55%;
   }
   #home .container .face {
-    height: 98vh;
+    height: 95vh;
   }
   #sambutan .title .foto {
     width: 40%;
@@ -1451,15 +1456,15 @@ body::after.aktif {
     width: 70%;
   }
   #tentang .container .row .gambar .logo ul li {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     text-align: justify;
   }
   #tentang .container .row .content p {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     text-align: justify;
   }
   #tentang .container .row .content ul li {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     text-align: justify;
   }
   #sambutan .container .row {
@@ -1484,10 +1489,10 @@ body::after.aktif {
     bottom: 2%;
   }
   #galeri .container .row .card .caption p {
-    font-size: 1.55rem;
+    font-size: 1.6rem;
   }
   #galeri .container .row .card .caption .btn {
-    font-size: 1.55rem;
+    font-size: 1.6rem;
   }
   #galeri .container .lihat-foto img {
     max-width: 100%;
@@ -1518,15 +1523,18 @@ body::after.aktif {
     padding: 0.5rem;
   }
   #kontak .container .row form .input-grup input {
-    font-size: 1.6rem;
+    font-size: 1.55rem;
+  }
+  #kontak .container .row form .input-grup #pesan {
+    font-size: 1.55rem;
   }
   #kontak .container .row form .input-grup .i {
-    width: 2rem;
-    height: 2rem;
+    width: 2.1rem;
+    height: 2.1rem;
   }
   #kontak .container .row form .btn-kirim {
     margin-top: 1rem;
-    font-size: 1.6rem;
+    font-size: 1.9rem;
   }
   #footer .container .row {
     flex-direction: row;
