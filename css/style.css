@@ -1179,6 +1179,10 @@ body::after.aktif {
   }
   #home .container .face {
     height: 80vh;
+    background-image: url("../img/galeri/bgbesar.jpg");
+    background-position: center 0.5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   #home .container .face .judul {
     position: absolute;
@@ -1446,6 +1450,9 @@ body::after.aktif {
   }
   #home .container .face {
     height: 90vh;
+    background-image: url("../img/galeri/bgbesar.jpg");
+    background-position: center 0.5rem;
+    background-size: cover;
   }
   #home .container .face::after {
     height: 15rem;
