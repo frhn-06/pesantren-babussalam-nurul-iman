@@ -1453,6 +1453,7 @@ body::after.aktif {
     background-image: url("../img/galeri/bgbesar.jpg");
     background-position: center 0.5rem;
     background-size: cover;
+    background-repeat: no-repeat;
   }
   #home .container .face::after {
     height: 15rem;
