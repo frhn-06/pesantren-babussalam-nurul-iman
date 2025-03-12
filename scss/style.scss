@@ -127,6 +127,7 @@ body::after.aktif {
             background-image: url('../img/galeri/bgbesar.jpg');
             background-position:  center .5rem ;
             background-size: cover;
+            background-repeat: no-repeat;
         
             // background-repeat: no-repeat;
         
@@ -1821,7 +1822,7 @@ body::after.aktif {
 
             .face {
                 // height: fit-content;
-                height: 90vh;
+                height: 80vh;
 
                 // .cover {
                 //     img {
@@ -1876,8 +1877,8 @@ body::after.aktif {
                 }
             }
             .face::after {
-                height: 15rem;
-                background: linear-gradient(to top, $bg2 60%, rgba(0, 0, 0, 0)100%);
+                height: 27rem;
+                background: linear-gradient(to top, $bg2 80%, rgba(0, 0, 0, 0)100%);
             }
         }
         .gelap {

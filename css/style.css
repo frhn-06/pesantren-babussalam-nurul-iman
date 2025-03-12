@@ -100,6 +100,7 @@ body::after.aktif {
   background-image: url("../img/galeri/bgbesar.jpg");
   background-position: center 0.5rem;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 #home .container .face .judul {
   height: -moz-fit-content;
@@ -1177,7 +1178,7 @@ body::after.aktif {
     transform: rotate(45deg) translateX(-1.45rem);
   }
   #home .container .face {
-    height: 90vh;
+    height: 80vh;
   }
   #home .container .face .judul {
     position: absolute;
@@ -1219,8 +1220,8 @@ body::after.aktif {
     }
   }
   #home .container .face::after {
-    height: 15rem;
-    background: linear-gradient(to top, rgb(208, 255, 208) 60%, rgba(0, 0, 0, 0) 100%);
+    height: 27rem;
+    background: linear-gradient(to top, rgb(208, 255, 208) 80%, rgba(0, 0, 0, 0) 100%);
   }
   #home .gelap {
     position: fixed;
