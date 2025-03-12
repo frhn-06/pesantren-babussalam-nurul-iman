@@ -1447,6 +1447,10 @@ body::after.aktif {
   #home .container .face {
     height: 90vh;
   }
+  #home .container .face::after {
+    height: 15rem;
+    background: linear-gradient(to top, rgb(208, 255, 208) 70%, rgba(0, 0, 0, 0) 100%);
+  }
   #sambutan .title .foto {
     width: 40%;
   }
