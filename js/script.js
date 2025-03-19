@@ -63,6 +63,22 @@ const tutupSambutan = (e) => {
 }
 
 
+const bukaMakna = (btnL, makna) => {
+    btnL.classList.add('balik');
+    makna.classList.add('buka');
+}
+
+const tutupMakna = (btnL, makna) => {
+    btnL.classList.add('kembali');
+    makna.classList.add('tutup');
+}
+
+const hapusClass = (btnL, makna) => {
+    btnL.classList.remove('balik', 'kembali');
+    makna.classList.remove('buka', 'tutup');
+}
+
+
 const munculCaption = (e, s) => {
     e.preventDefault();
     const i = s.querySelector('.i');
@@ -73,9 +89,13 @@ const munculCaption = (e, s) => {
             
     } else {
         i.classList.remove('kebalik');
-        caption.classList.remove('terbuka');
+        caption.classList.replace('terbuka', 'tertutup');
+        setTimeout(() => {
+            caption.classList.remove('tertutup');
+        }, 1000);
     }
 }
+
 
 
 const munculfotoBesar = (b) => {
@@ -211,6 +231,21 @@ btnSambutan.addEventListener('click', () => {
 // menutup sambutan
 document.addEventListener('click', (e) => {
     tutupSambutan(e);
+});
+
+
+// memunculkan makna logo
+const btnLogo = document.querySelector('.btn-logo');
+btnLogo.addEventListener('click', () => {
+    const maknaLogo = document.querySelector('.gambar .logo');
+    if(!btnLogo.classList.contains('balik')) {
+        bukaMakna(btnLogo, maknaLogo);
+    } else {
+        tutupMakna(btnLogo, maknaLogo);
+        setTimeout(() => {
+            hapusClass(btnLogo, maknaLogo);
+        }, 1000);
+    }
 });
 
 
