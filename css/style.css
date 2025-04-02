@@ -1374,6 +1374,7 @@ body::after.aktif {
   #tentang .container .row .gambar .btn-logo .i-l {
     height: 8rem;
     width: 8rem;
+    color: #333;
   }
   #tentang .container .row .gambar .btn-logo.balik {
     animation: balik 1s ease forwards;
